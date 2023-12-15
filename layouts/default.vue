@@ -6,7 +6,7 @@
       <NuxtLink to="/">
         <h1 class="text-5xl">Startup</h1>
       </NuxtLink>
-      <NuxtLink to="produits">Produits</NuxtLink>
+      <NuxtLink :to="'/produits'">Produits</NuxtLink>
     </nav>
     <div class="container mx-auto px-3">
       <slot />
