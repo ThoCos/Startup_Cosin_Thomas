@@ -23,7 +23,7 @@ produit.value = data.value.produit;
 </script>
 
 <template>
-  <div v-if="produit" class="max-w-lg space-y-8 mx-auto">
+  <div v-if="produit" class="max-w-lg space-y-8 mx-auto text-white">
     <div class="flex">
       <NuxtImg
         class="rounded-lg w-[300px]"
@@ -34,12 +34,10 @@ produit.value = data.value.produit;
         <h2
           class="text-3xl text-center flex flex-col items-center justify-center bg-indigo-200 p-3 rounded-lg mt-2"
         >
-          <div class="mx-3 mb-1">
-            {{ produit.titre }}
-          </div>
+          {{ produit.titre }}
         </h2>
       </div>
     </div>
-    <p class="text-justify pb-20">{{ produit.description.html }}</p>
+    {{ produit.description.html }}
   </div>
 </template>

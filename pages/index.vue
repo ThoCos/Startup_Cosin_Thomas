@@ -19,6 +19,8 @@ contenuAccueil.value = data.value.page;
 </script>
 
 <template>
-  <h2 class="">{{ contenuAccueil.titre }}</h2>
-  <div v-html="contenuAccueil.texte.html"></div>
+  <div class="max-w-3xl space-y-4 mx-auto text-white">
+    <h2 class="">{{ contenuAccueil.titre }}</h2>
+    <div v-html="contenuAccueil.texte.html"></div>
+  </div>
 </template>
