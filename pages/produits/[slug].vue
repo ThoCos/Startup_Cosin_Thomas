@@ -38,6 +38,6 @@ produit.value = data.value.produit;
         </h2>
       </div>
     </div>
-    {{ produit.description.html }}
+    <div v-html="produit.description.html"></div>
   </div>
 </template>

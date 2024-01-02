@@ -23,7 +23,7 @@ articles.value = data.value.articles;
 <template>
   <ul
     v-if="articles"
-    class="grid gap-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 pb-10"
+    class="grid gap-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-6 pb-10"
   >
     <li
       v-for="article in articles"

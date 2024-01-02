@@ -4,7 +4,7 @@
       class="container mx-auto flex justify-between items-center h-24 mb-10 text-white text-xl pl-10 border-b-[3px] border-teal-400"
     >
       <NuxtLink to="/">
-        <h1 class="">Startup</h1>
+        <h1 class="">PiloteXperience</h1>
       </NuxtLink>
       <div class="space-x-10 text-xl pr-10">
         <NuxtLink :to="'/produits'" class="hover:text-teal-400"
