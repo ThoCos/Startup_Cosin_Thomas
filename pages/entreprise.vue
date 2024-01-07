@@ -16,11 +16,11 @@ console.log(data.value);
 entreprise.value = data.value.entreprise;
 </script>
 <template>
-  <di class="text-white">
-    <h2 class="text-3xl flex justify-center mb-5">{{ entreprise.nom }}</h2>
-    <h2 class="text-3xl mb-2">Notre histoire</h2>
+  <div class="text-white mx-10">
+    <h2 class="text-3xl flex justify-center mb-10">{{ entreprise.nom }}</h2>
+    <h2 class="text-3xl text-[#A10909] font-bold mb-5">Notre histoire</h2>
     <div>{{ entreprise.historique }}</div>
-    <h2 class="text-3xl mb-2 mt-5">Nos missions</h2>
+    <h2 class="text-3xl text-[#A10909] font-bold mb-5 mt-5">Nos missions</h2>
     <div>{{ entreprise.missions }}</div>
-  </di>
+  </div>
 </template>

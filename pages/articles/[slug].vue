@@ -23,10 +23,10 @@ article.value = data.value.article;
 </script>
 
 <template>
-  <div v-if="article" class="max-w-lg space-y-8 mx-auto pb-10 text-white">
+  <div v-if="article" class="max-w-xl space-y-4 mx-auto pb-10 text-white">
     <NuxtImg class="rounded-lg" :src="article.image.url" :alt="article.titre" />
     <div class="">
-      <h2 class="text-3xl mb-3">
+      <h2 class="text-3xl mb-4">
         {{ article.titre }}
       </h2>
     </div>

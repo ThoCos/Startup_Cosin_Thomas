@@ -34,9 +34,9 @@ articles.value = data.value.articles;
         <NuxtImg
           :src="article.image.url"
           :alt="article.titre"
-          class="rounded-lg"
+          class="rounded-lg w-[300px]"
         />
-        <h2 class="text-3xl flex justify-start">{{ article.titre }}</h2>
+        <h2 class="text-2xl flex justify-start">{{ article.titre }}</h2>
       </NuxtLink>
     </li>
   </ul>
