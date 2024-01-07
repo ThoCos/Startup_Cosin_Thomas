@@ -31,7 +31,7 @@ produit.value = data.value.produit;
         :alt="produit.titre"
       />
     </div>
-    <h2 class="text-4xl">
+    <h2 class="text-4xl text-[#A10909] font-bold">
       {{ produit.titre }}
     </h2>
     <div v-html="produit.description.html"></div>

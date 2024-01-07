@@ -24,9 +24,15 @@ article.value = data.value.article;
 
 <template>
   <div v-if="article" class="max-w-xl space-y-4 mx-auto pb-10 text-white">
-    <NuxtImg class="rounded-lg" :src="article.image.url" :alt="article.titre" />
-    <div class="">
-      <h2 class="text-3xl mb-4">
+    <div class="flex justify-center">
+      <NuxtImg
+        class="rounded-lg w-[400px]"
+        :src="article.image.url"
+        :alt="article.titre"
+      />
+    </div>
+    <div>
+      <h2 class="text-3xl mb-4 text-[#A10909] font-bold">
         {{ article.titre }}
       </h2>
     </div>
